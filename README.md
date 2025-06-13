@@ -46,4 +46,3 @@ Welcome to my GitHub! I specialize in transforming raw data into actionable insi
 > 💡 “Data is the new oil, but insight is the spark that ignites action.”  
 ```
 
-You can copy this into your `README.md` on your GitHub profile. Let me know if you'd like it themed (dark/light badges, icons, or emojis for skills).
