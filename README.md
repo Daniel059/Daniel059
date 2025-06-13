@@ -1,6 +1,4 @@
-Here’s a polished and eye-catching `README.md` for your GitHub profile, personalized with your past details:
 
-```markdown
 # 👋 Hi, I'm Daniel Nzioki Musyoka
 
 🎯 **Turning Data into Insights | Data Scientist & Engineer | Python • SQL • Power BI**  
