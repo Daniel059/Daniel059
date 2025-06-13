@@ -34,13 +34,14 @@ Welcome to my GitHub! I specialize in transforming raw data into actionable insi
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Let's Connect on
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/daniel-nzioki-musyoka/)
-- 💼 [GitHub Portfolio](https://github.com/Daniel059)
-- 🌐 [Personal Website / Portfolio](https://daniel059.github.io/Musyoka_Daniel_Portfolio/Portfolio/)
-- 📧 danzioki01@gmail.com
-- 📞 +254706050384
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-nzioki-musyoka/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Daniel059)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-blueviolet?style=flat&logo=githubpages&logoColor=white)](https://daniel059.github.io/Musyoka_Daniel_Portfolio/Portfolio/)
+[![Gmail](https://img.shields.io/badge/Gmail-danzioki01@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:danzioki01@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-+254706050384-green?style=flat&logo=whatsapp&logoColor=white)](tel:+254706050384)
+[![Teams](https://img.shields.io/badge/Teams-nziokid1@outlook.com-6264A7?style=flat&logo=microsoftteams&logoColor=white)](mailto:nziokid1@outlook.com)
 
 ---
 
