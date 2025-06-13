@@ -26,9 +26,11 @@ Welcome to my GitHub! I specialize in transforming raw data into actionable insi
 
 ## 🏆 Certifications
 
-- 📜 [Data Science & Analytics (IBM/ALX)](https://www.credly.com/badges/80df4c1a-d7fa-4ad7-83af-61e63966ea0b)
+- 📜 [Data Science & Analytics (IBM)](https://www.credly.com/badges/80df4c1a-d7fa-4ad7-83af-61e63966ea0b)
 - 🧮 [Scientific Computing with Python – freeCodeCamp](https://www.freecodecamp.org/certification/Danny_EL/scientific-computing-with-python-v7)
+- 🧠 [AI Career Essentials - ALX](https://savanna.alxafrica.com/certificates/86chpJEF2r)
 - 🌐 [Responsive Web Design – freeCodeCamp](https://www.freecodecamp.org/certification/Danny_EL/responsive-web-design)
+
 
 ---
 
