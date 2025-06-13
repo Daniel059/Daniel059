@@ -1,7 +1,7 @@
 
 # 👋 Hi, I'm Daniel Nzioki Musyoka
 
-🎯 **Turning Data into Insights | Data Scientist & Engineer | Python • SQL • Power BI**  
+🎯 **I Turn Data into Insights | Data Scientist & Engineer | AI | Python • SQL • Power BI**  
 Welcome to my GitHub! I specialize in transforming raw data into actionable insights through robust analysis, clean data pipelines, and effective visualization.
 
 ---
@@ -10,8 +10,8 @@ Welcome to my GitHub! I specialize in transforming raw data into actionable insi
 
 - 🎓 BSc in Computer Science | The Catholic University of Eastern Africa
 - 🧠 Passionate about **Data Science, Analytics, Engineering, and Quality Assurance**
-- 🛠️ Skilled in: **Python, SQL, Power BI, Excel, PostgreSQL, OracleDB**
-- 📊 Currently working on: Real-world projects involving **EDA**, **data wrangling**, and **web scraping**
+- 🛠️ Skilled in: **Python, SQL, Power BI, Excel, PostgreSQL, OracleDB, DBeaver**
+- 📊 Currently working on: Real-world projects involving **EDA**, **data wrangling**,***data Visualization*, and **web scraping**
 - 🌱 Always learning: Machine Learning, Advanced SQL, and Cloud Tools
 
 ---
