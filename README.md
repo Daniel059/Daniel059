@@ -36,6 +36,7 @@ Welcome to my GitHub! I specialize in transforming raw data into actionable insi
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/daniel-nzioki-musyoka/)
 - 💼 [GitHub Portfolio](https://github.com/Daniel059)
+- 🌐 [Personal Website / Portfolio](https://daniel059.github.io/Musyoka_Daniel_Portfolio/Portfolio/)
 - 📧 danzioki01@gmail.com
 - 📞 +254706050384
 
