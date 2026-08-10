@@ -135,28 +135,17 @@ learning_path = {
 ## GitHub activity
 
 <div align="center">
-  <img src="https://img.shields.io/github/followers/Daniel059?label=Followers&style=for-the-badge&color=1f6feb&labelColor=0d1117" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/Daniel059?label=Stars%20Earned&style=for-the-badge&color=1f6feb&labelColor=0d1117" alt="GitHub stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Daniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=1f6feb&labelColor=0d1117" alt="Public repos" />
+  <img src="https://img.shields.io/github/followers/Daniel059?label=Followers&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/Daniel059?label=Stars%20Earned&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub stars" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Daniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="Public repos" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Daniel059&show_icons=true&hide_border=true&theme=tokyonight&title_color=58a6ff&icon_color=79c0ff&text_color=c9d1d9&bg_color=0d1117&cache_seconds=86400" height="170" alt="Daniel's GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daniel059&layout=compact&hide_border=true&theme=tokyonight&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&cache_seconds=86400" height="170" alt="Daniel's top languages" />
+  <img src="https://streak-stats.demolab.com?user=Daniel059&hide_border=true&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=39FF14&sideLabels=c9d1d9&sideNums=39FF14&dates=c9d1d9&stroke=30363d" alt="Daniel's GitHub streak" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Daniel059&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9&stroke=30363d" alt="Daniel's GitHub streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Daniel059&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="Daniel's GitHub trophies" />
-</div>
-
-<div align="center">
-
-*The badges above the stats cards (Followers / Stars / Repos) are served by shields.io — a static badge CDN that essentially never goes down. If the larger stats/streak/trophy cards below them don't render, that's a separate, occasionally-rate-limited Vercel widget service — refresh after a minute, or check live stats on [Daniel's GitHub profile](https://github.com/Daniel059).*
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daniel059&theme=react-dark&hide_border=true&bg_color=0d1117&color=39FF14&line=39FF14&point=39FF14&area=true&area_color=39FF14" alt="Daniel's GitHub contribution activity graph" width="100%" />
 </div>
 
 ## Let's connect
