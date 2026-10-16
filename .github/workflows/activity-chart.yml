@@ -1,0 +1,63 @@
+
+name: Update contribution chart
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  chart:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution charts
+        uses: dturovskiy/deus-commit-chart@v1.5.3
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          default-days: "30"
+          ranges: "30,90,365"
+          theme: github-compact
+          layout: spacious
+          output-dir: activity-dist
+
+      - name: Apply neon-green styling
+        run: |
+          find activity-dist -type f \
+            \( -name '*.svg' -o -name '*.html' \) \
+            -exec sed -i \
+            -e 's/#58a6ff/#39FF14/gi' \
+            -e 's/#39d353/#39FF14/gi' \
+            -e 's/#56d364/#39FF14/gi' \
+            -e 's/rgba(57, 211, 83/rgba(57, 255, 20/gi' \
+            {} +
+
+      - name: Publish chart files
+        env:
+          TARGET_BRANCH: activity-assets
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p /tmp/activity-dist
+          cp -a activity-dist/. /tmp/activity-dist/
+
+          git switch --orphan "$TARGET_BRANCH"
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name .git -exec rm -rf {} +
+          cp -a /tmp/activity-dist/. .
+
+          git add -A
+          git commit -m "Update contribution chart"
+          git push --force origin "$TARGET_BRANCH"
