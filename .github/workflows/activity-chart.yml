@@ -6,10 +6,17 @@ on:
     - cron: "17 4 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - ".github/workflows/activity-chart.yml"
 
 permissions:
   contents: write
+
+concurrency:
+  group: contribution-chart
+  cancel-in-progress: true
 
 jobs:
   chart:
@@ -18,46 +25,72 @@ jobs:
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate contribution charts
         uses: dturovskiy/deus-commit-chart@v1.5.3
         with:
           username: ${{ github.repository_owner }}
-          token: ${{ github.token }}
+          token: ${{ secrets.DEUS_COMMIT_CHART_TOKEN || github.token }}
           default-days: "30"
           ranges: "30,90,365"
           theme: github-compact
           layout: spacious
           output-dir: activity-dist
 
-      - name: Apply neon-green styling
+      - name: Check and style generated charts
+        shell: bash
         run: |
-          find activity-dist -type f \
-            \( -name '*.svg' -o -name '*.html' \) \
-            -exec sed -i \
-            -e 's/#58a6ff/#39FF14/gi' \
-            -e 's/#39d353/#39FF14/gi' \
-            -e 's/#56d364/#39FF14/gi' \
-            -e 's/rgba(57, 211, 83/rgba(57, 255, 20/gi' \
-            {} +
+          set -euo pipefail
 
-      - name: Publish chart files
+          echo "Generated files:"
+          find activity-dist -maxdepth 3 -type f -print
+
+          test -s activity-dist/activity-30d.svg
+          test -s activity-dist/activity-90d.svg
+          test -s activity-dist/activity-365d.svg
+
+          while IFS= read -r -d '' file; do
+            sed -i \
+              -e 's/#58a6ff/#39FF14/gi' \
+              -e 's/#39d353/#39FF14/gi' \
+              -e 's/#56d364/#39FF14/gi' \
+              -e 's/#2ea043/#39FF14/gi' \
+              -e 's/#238636/#39FF14/gi' \
+              -e 's/#1f6feb/#39FF14/gi' \
+              -e 's/rgba(57,[[:space:]]*211,[[:space:]]*83/rgba(57, 255, 20/gi' \
+              -e 's/rgba(46,[[:space:]]*160,[[:space:]]*67/rgba(57, 255, 20/gi' \
+              "$file"
+          done < <(
+            find activity-dist -type f \
+              \( -name '*.svg' -o -name '*.html' \) -print0
+          )
+
+      - name: Publish charts to activity-assets
+        shell: bash
         env:
           TARGET_BRANCH: activity-assets
         run: |
-          set -e
+          set -euo pipefail
+
+          temp_dir="$(mktemp -d)"
+          cp -a activity-dist/. "$temp_dir"/
+
           git config user.name "github-actions[bot]"
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
-          mkdir -p /tmp/activity-dist
-          cp -a activity-dist/. /tmp/activity-dist/
+          publish_branch="activity-publish-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch --orphan "$publish_branch"
 
-          git switch --orphan "$TARGET_BRANCH"
+          # Remove the old profile files from this new branch's worktree.
           find . -mindepth 1 -maxdepth 1 \
             ! -name .git -exec rm -rf {} +
-          cp -a /tmp/activity-dist/. .
 
+          cp -a "$temp_dir"/. .
+          touch .nojekyll
           git add -A
-          git commit -m "Update contribution chart"
-          git push --force origin "$TARGET_BRANCH"
+
+          git commit -m "Update contribution charts"
+          git push --force origin "HEAD:refs/heads/${TARGET_BRANCH}"
