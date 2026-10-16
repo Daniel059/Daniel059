@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # Daniel Nzioki Musyoka
@@ -145,23 +146,31 @@ learning_path = {
 
 <img src="https://img.shields.io/github/followers/Daniel059?label=Followers&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub followers" />
 <img src="https://img.shields.io/github/stars/Daniel059?label=Stars%20Earned&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub stars" />
-
-<br /><br />
-
-<a href="https://github.com/Daniel059?tab=overview">
-  <img
-    src="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-dashboard.svg"
-    alt="GitHub activity dashboard: 30-day contributions, active days, streak, public repos, activity chart and contribution calendar"
-    width="100%"
-  />
-</a>
-
-<sub>
-  Auto-updated every 6 hours with GitHub Actions ·
-  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">chart source</a>
-</sub>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="Public repositories" />
 
 </div>
+
+<h2 align="center">Contribution Activity</h2>
+
+<p align="center">
+  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">
+    <img
+      src="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg"
+      alt="GitHub contribution activity over the last 30 days"
+      width="100%"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg">30 Days</a>
+  ·
+  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-90d.svg">90 Days</a>
+  ·
+  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-365d.svg">365 Days</a>
+  ·
+  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">Chart files</a>
+</p>
 
 ## Let's connect
 
