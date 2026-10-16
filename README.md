@@ -138,23 +138,28 @@ learning_path = {
 </div>
 
 
-<div align="center">
+<h2 align="center">Contribution Activity</h2>
 
-  <a href="https://github.com/Daniel059?tab=overview">
+<p align="center">
+  <a href="https://daniel059.github.io/Daniel059/">
     <img
-      src="https://streak-stats.demolab.com/?user=Daniel059&theme=dark&hide_border=true&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=39FF14&sideLabels=c9d1d9&sideNums=39FF14&dates=c9d1d9&stroke=30363d"
-      alt="Daniel's GitHub contribution streak"
+      src="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg"
+      alt="GitHub contribution activity over the last 30 days"
       width="100%"
     />
   </a>
+</p>
 
-  <p>
-    <a href="https://github.com/Daniel059?tab=overview">
-      <strong>View contribution calendar on GitHub →</strong>
-    </a>
-  </p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg">30 Days</a>
+  ·
+  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-90d.svg">90 Days</a>
+  ·
+  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-365d.svg">365 Days</a>
+  ·
+  <a href="https://daniel059.github.io/Daniel059/">Interactive Report</a>
+</p>
 
-</div>
 
 ## Let's connect
 
