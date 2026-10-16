@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # Daniel Nzioki Musyoka
@@ -8,17 +9,17 @@ I turn raw data into useful decisions, practical products, and better questions.
 
 <p>
   <a href="https://github.com/Daniel059">
-    <img src="https://img.shields.io/badge/GitHub-Daniel059-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+    <img src="https://img.shields.io/badge/GitHub-Daniel059-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/daniel-nzioki-musyoka/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://daniel-nzioki-musyoka-data-and-ai-pro.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-Explore-6f42c1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=Daniel059&style=flat-square&color=1f6feb" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=Daniel059&style=flat-square&color=39FF14&labelColor=0d1117" alt="Profile views" />
 
 </div>
 
@@ -93,21 +94,33 @@ I enjoy the space where analytical thinking meets hands-on engineering — writi
 ## Selected work
 
 | Project | What it shows |
-| --- | --- |
-| [Streaming ecommerce data](https://github.com/Daniel059/api_snowflake_dbt) | Exploring modern data workflows with APIs, streaming concepts, Snowflake, and dbt. |
-| [Sales ETL pipeline](https://github.com/Daniel059/Sales_Etl) | A Python pipeline that transforms sales data, calculates useful metrics, checks data quality, and prepares output for reporting. |
-| [CloudHER VPC lab](https://github.com/Daniel059/CloudHER-Week5-VPC-Lab) | Hands-on AWS networking with VPCs, public and private subnets, route tables, an internet gateway, and EC2. |
-| [MCH Connect](https://github.com/Daniel059/MCH-connect) | A digital health information platform designed to improve access to maternal and child health information in rural communities in Kenya. |
-| [Nairobi house price prediction](https://github.com/Daniel059/nairobi-house-price-prediction) | A machine learning project exploring property data and regression-based prediction. |
-| [Titanic exploratory analysis](https://github.com/Daniel059/EXPLORATORY-DATA-ANALYSIS-USING-TITANIC-DATA-SET) | An end-to-end exploration of a classic dataset using Python and visualization to uncover survival patterns. |
+|---|---|
+| [Streaming ecommerce data](https://github.com/Daniel059/api_snowflake_dbt) | Exploring data workflows with APIs, streaming concepts, Snowflake, and dbt. |
+| [Sales ETL pipeline](https://github.com/Daniel059/Sales_Etl) | A Python pipeline for data transformation, metrics, data-quality checks, and reporting. |
+| [CloudHER VPC lab](https://github.com/Daniel059/CloudHER-Week5-VPC-Lab) | AWS networking with VPCs, public and private subnets, route tables, an internet gateway, and EC2. |
+| [MCH Connect](https://github.com/Daniel059/MCH-connect) | A digital health information platform designed to improve access to maternal and child health information in rural Kenya. |
+| [Nairobi house price prediction](https://github.com/Daniel059/nairobi-house-price-prediction) | Machine learning and regression-based property price prediction. |
+| [Titanic exploratory analysis](https://github.com/Daniel059/EXPLORATORY-DATA-ANALYSIS-USING-TITANIC-DATA-SET) | Exploratory data analysis and visualization of survival patterns. |
 
 ## Current learning path
 
 ```python
 learning_path = {
-    "deepening": ["machine learning", "advanced SQL", "data engineering"],
-    "exploring": ["cloud infrastructure", "streaming data", "generative AI"],
-    "building": ["ETL pipelines", "analytics projects", "useful web products"],
+    "deepening": [
+        "machine learning",
+        "advanced SQL",
+        "data engineering"
+    ],
+    "exploring": [
+        "cloud infrastructure",
+        "streaming data",
+        "generative AI"
+    ],
+    "building": [
+        "ETL pipelines",
+        "analytics projects",
+        "useful web products"
+    ],
     "principle": "learn it, build it, explain it"
 }
 ```
@@ -118,7 +131,7 @@ learning_path = {
 
 - [Associate Data Engineer — DataCamp](https://www.datacamp.com/completed/statement-of-accomplishment/track/282b5d8ecb10be41e83be03757d04ad547712b01)
 - [Data Engineer Associate Certificate — DataCamp](https://www.datacamp.com/certificate/DEA0019706624868)
-- [ETL in Python and SQL — LinkedIn Learning](https://www.linkedin.com/learning/certificates/36ab2a912ff945f011347465f1612e5030f8ddb95b904e854b8faad7f83540b0) *(by Jennifer Ebe, Mar 2024)*
+- [ETL in Python and SQL — LinkedIn Learning](https://www.linkedin.com/learning/certificates/36ab2a912ff945f011347465f1612e5030f8ddb95b904e854b8faad7f83540b0)
 
 **Data science & general**
 
@@ -131,17 +144,16 @@ learning_path = {
 
 <div align="center">
 
-  <img src="https://img.shields.io/github/followers/Daniel059?label=Followers&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/Daniel059?label=Stars%20Earned&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="Public repositories" />
+<img src="https://img.shields.io/github/followers/Daniel059?label=Followers&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub followers" />
+<img src="https://img.shields.io/github/stars/Daniel059?label=Stars%20Earned&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub stars" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="Public repositories" />
 
 </div>
-
 
 <h2 align="center">Contribution Activity</h2>
 
 <p align="center">
-  <a href="https://daniel059.github.io/Daniel059/">
+  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">
     <img
       src="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg"
       alt="GitHub contribution activity over the last 30 days"
@@ -157,15 +169,14 @@ learning_path = {
   ·
   <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-365d.svg">365 Days</a>
   ·
-  <a href="https://daniel059.github.io/Daniel059/">Interactive Report</a>
+  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">Chart files</a>
 </p>
-
 
 ## Let's connect
 
 <div align="center">
 
-I'm open to conversations about data, AI, analytics, engineering, cloud, collaboration, and ideas that should become real projects — feel free to reach out on any of these.
+I'm open to conversations about data, AI, analytics, engineering, cloud, collaboration, and ideas that should become real projects.
 
 <p>
   <a href="https://github.com/Daniel059">
