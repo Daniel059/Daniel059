@@ -1,12 +1,11 @@
+
 <div align="center">
 
 # Daniel Nzioki Musyoka
 
 ### AI & ML Enthusiast · Data Scientist · Data Engineer · Cloud Explorer
 
-<p>
-  I turn raw data into useful decisions, practical products, and better questions.
-</p>
+I turn raw data into useful decisions, practical products, and better questions.
 
 <p>
   <a href="https://github.com/Daniel059">
@@ -36,8 +35,7 @@ of data, software, analytics, and cloud technology.
 
 ## About me
 
-I am a technology enthusiast focused on making data more useful. My work moves
-across the full path from raw information to meaningful output:
+I am a technology enthusiast focused on making data more useful. My work moves across the full path from raw information to meaningful output:
 
 - **Explore** data to find patterns, relationships, and opportunities.
 - **Engineer** reliable pipelines that move and prepare data for analysis.
@@ -45,9 +43,7 @@ across the full path from raw information to meaningful output:
 - **Experiment** with machine learning and generative AI.
 - **Build** practical web, API, and cloud projects while continuously learning.
 
-I enjoy the space where analytical thinking meets hands-on engineering — writing
-the query, cleaning the dataset, building the pipeline, deploying the service,
-and explaining what the result means.
+I enjoy the space where analytical thinking meets hands-on engineering — writing the query, cleaning the dataset, building the pipeline, deploying the service, and explaining what the result means.
 
 > **My focus:** build technology that converts complexity into clarity.
 
@@ -56,7 +52,7 @@ and explaining what the result means.
 <table>
   <tr>
     <td valign="top" width="33%">
-      <h3>Data & analytics</h3>
+      <h3>Data &amp; analytics</h3>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
@@ -68,7 +64,7 @@ and explaining what the result means.
       </p>
     </td>
     <td valign="top" width="33%">
-      <h3>Engineering & platforms</h3>
+      <h3>Engineering &amp; platforms</h3>
       <p>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/OracleDB-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Database" />
@@ -81,7 +77,7 @@ and explaining what the result means.
       </p>
     </td>
     <td valign="top" width="33%">
-      <h3>Web & developer tools</h3>
+      <h3>Web &amp; developer tools</h3>
       <p>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
@@ -135,26 +131,42 @@ learning_path = {
 ## GitHub activity
 
 <div align="center">
+
   <img src="https://img.shields.io/github/followers/Daniel059?label=Followers&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/Daniel059?label=Stars%20Earned&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="GitHub stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Daniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="Public repos" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaniel059&label=Public%20Repos&query=%24.public_repos&style=for-the-badge&color=39FF14&labelColor=0d1117" alt="Public repositories" />
+
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Daniel059&hide_border=true&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=39FF14&sideLabels=c9d1d9&sideNums=39FF14&dates=c9d1d9&stroke=30363d" alt="Daniel's GitHub streak" />
+  <img
+    src="https://streak-stats.demolab.com?user=Daniel059&hide_border=true&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=39FF14&sideLabels=c9d1d9&sideNums=39FF14&dates=c9d1d9&stroke=30363d"
+    alt="Daniel's GitHub contribution streak"
+    width="100%"
+  />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daniel059&theme=react-dark&hide_border=true&bg_color=0d1117&color=39FF14&line=39FF14&point=39FF14&area=true&area_color=39FF14" alt="Daniel's GitHub contribution activity graph" width="100%" />
+  <a href="https://github.com/Daniel059" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Daniel059&theme=react-dark&hide_border=true&bg_color=0d1117&color=39FF14&line=39FF14&point=39FF14&area=true&area_color=39FF14&custom_title=Daniel%27s%20GitHub%20Activity"
+      alt="Daniel's GitHub activity graph. Select the graph to open his GitHub profile."
+      width="100%"
+      loading="lazy"
+    />
+  </a>
+  <p>
+    <a href="https://github.com/Daniel059?tab=overview">
+      View my GitHub profile and contribution calendar
+    </a>
+  </p>
 </div>
 
 ## Let's connect
 
 <div align="center">
 
-I'm open to conversations about data, AI, analytics, engineering, cloud,
-collaboration, and ideas that should become real projects — feel free to
-reach out on any of these.
+I'm open to conversations about data, AI, analytics, engineering, cloud, collaboration, and ideas that should become real projects — feel free to reach out on any of these.
 
 <p>
   <a href="https://github.com/Daniel059">
