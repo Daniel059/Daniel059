@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Daniel Nzioki Musyoka
@@ -138,28 +137,23 @@ learning_path = {
 
 </div>
 
-<div align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=Daniel059&hide_border=true&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=39FF14&sideLabels=c9d1d9&sideNums=39FF14&dates=c9d1d9&stroke=30363d"
-    alt="Daniel's GitHub contribution streak"
-    width="100%"
-  />
-</div>
 
 <div align="center">
-  <a href="https://github.com/Daniel059" target="_blank" rel="noopener noreferrer">
+
+  <a href="https://github.com/Daniel059?tab=overview">
     <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Daniel059&theme=react-dark&hide_border=true&bg_color=0d1117&color=39FF14&line=39FF14&point=39FF14&area=true&area_color=39FF14&custom_title=Daniel%27s%20GitHub%20Activity"
-      alt="Daniel's GitHub activity graph. Select the graph to open his GitHub profile."
+      src="https://streak-stats.demolab.com/?user=Daniel059&theme=dark&hide_border=true&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=39FF14&sideLabels=c9d1d9&sideNums=39FF14&dates=c9d1d9&stroke=30363d"
+      alt="Daniel's GitHub contribution streak"
       width="100%"
-      loading="lazy"
     />
   </a>
+
   <p>
     <a href="https://github.com/Daniel059?tab=overview">
-      View my GitHub profile and contribution calendar
+      <strong>View contribution calendar on GitHub →</strong>
     </a>
   </p>
+
 </div>
 
 ## Let's connect
