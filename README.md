@@ -1,5 +1,6 @@
-
 <div align="center">
+
+<img src="./assets/banner.svg" alt="Data pipeline banner" width="100%" />
 
 # Daniel Nzioki Musyoka.
 
@@ -23,7 +24,7 @@ I turn raw data into useful decisions, practical products, and better questions.
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ```text
 ┌─[daniel@github]─[~/building-with-data]
@@ -34,6 +35,8 @@ intersection of big data, analytics, AI/ML, and cloud engineering.
 I turn raw data into reliable pipelines, meaningful insights, and
 practical solutions — learning by building, one project at a time.
 ```
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## About me
 
@@ -48,6 +51,8 @@ I am a technology enthusiast focused on making data more useful. My work moves a
 I enjoy the space where analytical thinking meets hands-on engineering — writing the query, cleaning the dataset, building the pipeline, deploying the service, and explaining what the result means.
 
 > **My focus:** build technology that converts complexity into clarity.
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## What I work with
 
@@ -93,6 +98,8 @@ I enjoy the space where analytical thinking meets hands-on engineering — writi
   </tr>
 </table>
 
+<img src="./assets/divider.svg" alt="" width="100%" />
+
 ## Selected work
 
 | Project | What it shows |
@@ -103,6 +110,8 @@ I enjoy the space where analytical thinking meets hands-on engineering — writi
 | [MCH Connect](https://github.com/Daniel059/MCH-connect) | A digital health information platform designed to improve access to maternal and child health information in rural Kenya. |
 | [Nairobi house price prediction](https://github.com/Daniel059/nairobi-house-price-prediction) | Machine learning and regression-based property price prediction. |
 | [Titanic exploratory analysis](https://github.com/Daniel059/EXPLORATORY-DATA-ANALYSIS-USING-TITANIC-DATA-SET) | Exploratory data analysis and visualization of survival patterns. |
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Current learning path
 
@@ -127,7 +136,13 @@ learning_path = {
 }
 ```
 
+<img src="./assets/divider.svg" alt="" width="100%" />
+
 ## Certifications & learning
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
 
 **Data engineering, SQL & cloud**
 
@@ -135,12 +150,21 @@ learning_path = {
 - [Data Engineer Associate Certificate — DataCamp](https://www.datacamp.com/certificate/DEA0019706624868)
 - [ETL in Python and SQL — LinkedIn Learning](https://www.linkedin.com/learning/certificates/36ab2a912ff945f011347465f1612e5030f8ddb95b904e854b8faad7f83540b0)
 
+</td>
+    <td valign="top" width="50%">
+
 **Data science & general**
 
 - [IBM Data Science & Analytics](https://www.credly.com/badges/80df4c1a-d7fa-4ad7-83af-61e63966ea0b)
 - [Scientific Computing with Python — freeCodeCamp](https://www.freecodecamp.org/certification/Danny_EL/scientific-computing-with-python-v7)
 - [AI Career Essentials — ALX](https://savanna.alxafrica.com/certificates/86chpJEF2r)
 - [Responsive Web Design — freeCodeCamp](https://www.freecodecamp.org/certification/Danny_EL/responsive-web-design)
+
+</td>
+  </tr>
+</table>
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## GitHub activity
 
@@ -167,6 +191,8 @@ learning_path = {
   · <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-365d.svg">365-day chart</a>
 </p>
 
+<img src="./assets/divider.svg" alt="" width="100%" />
+
 ## Let's connect
 
 <div align="center">
@@ -189,5 +215,7 @@ I'm open to conversations about data, AI, analytics, engineering, cloud, collabo
 </p>
 
 ### Build with purpose. Learn in public. Keep shipping.
+
+<img src="./assets/footer.svg" alt="Decorative footer" width="100%" />
 
 </div>
