@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Daniel Nzioki Musyoka
+# Daniel Nzioki Musyoka.
 
 ### AI & ML Enthusiast · Data Scientist · Data Engineer · Cloud Explorer
 
