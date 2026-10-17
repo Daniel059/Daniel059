@@ -18,9 +18,13 @@ I turn raw data into useful decisions, practical products, and better questions.
   <a href="https://daniel-nzioki-musyoka-data-and-ai-pro.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-Explore-6f42c1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
+  <a href="mailto:danzioki01@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Daniel059">
+    <img src="https://hits.sh/github.com/Daniel059/Daniel059.svg?style=for-the-badge&label=Profile%20Views&color=39FF14&labelColor=0d1117" alt="Profile views" />
+  </a>
 </p>
-
-<img src="https://komarev.com/ghpvc/?username=Daniel059&style=flat-square&color=39FF14&labelColor=0d1117" alt="Profile views" />
 
 </div>
 
