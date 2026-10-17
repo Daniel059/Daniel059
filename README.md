@@ -150,26 +150,19 @@ learning_path = {
 
 </div>
 
-<h2 align="center">Contribution Activity</h2>
-
 <p align="center">
-  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">
-    <img
-      src="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg"
-      alt="GitHub contribution activity over the last 30 days"
-      width="100%"
-    />
+  <a href="https://daniel059.github.io/Daniel059/">
+    <img src="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/dashboard.svg"
+      alt="Responsive GitHub activity dashboard. Click to open the interactive report."
+      width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg">30 Days</a>
-  ·
-  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-90d.svg">90 Days</a>
-  ·
-  <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-365d.svg">365 Days</a>
-  ·
-  <a href="https://github.com/Daniel059/Daniel059/tree/activity-assets">Chart files</a>
+  <a href="https://daniel059.github.io/Daniel059/">Open interactive activity dashboard</a>
+  · <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-30d.svg">30-day chart</a>
+  · <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-90d.svg">90-day chart</a>
+  · <a href="https://raw.githubusercontent.com/Daniel059/Daniel059/activity-assets/activity-365d.svg">365-day chart</a>
 </p>
 
 ## Let's connect
