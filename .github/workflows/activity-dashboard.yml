@@ -1,46 +1,55 @@
-name: Update activity dashboard
+name: Update GitHub activity dashboard
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours
-  workflow_dispatch:          # lets you run it manually from the Actions tab
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/activity-dashboard.yml"
+      - "scripts/generate_activity.py"
 
 permissions:
   contents: write
 
 concurrency:
-  group: activity-dashboard
+  group: github-activity-dashboard
   cancel-in-progress: true
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Generate dashboard SVG
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate dashboard
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/generate_activity.py --user Daniel059 --out dist/activity-dashboard.svg
-
-      - name: Publish to activity-assets branch
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Daniel059
+        run: python scripts/generate_activity.py
+      - name: Publish dashboard assets
         run: |
-          git config user.name  "github-actions[bot]"
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/activity-output
+          cp -a dist/. /tmp/activity-output/
           if git ls-remote --exit-code --heads origin activity-assets >/dev/null 2>&1; then
             git fetch origin activity-assets
-            git worktree add ../assets -B activity-assets origin/activity-assets
+            git switch --force-create activity-assets origin/activity-assets
+            find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           else
-            git worktree add --detach ../assets
-            git -C ../assets checkout --orphan activity-assets
-            git -C ../assets rm -rf . >/dev/null 2>&1 || true
+            git switch --orphan activity-assets
+            find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           fi
-          cp dist/activity-dashboard.svg ../assets/activity-dashboard.svg
-          cd ../assets
-          git add activity-dashboard.svg
-          if git diff --cached --quiet; then
-            echo "No changes to publish"
-          else
-            git commit -m "chore: update activity dashboard"
-            git push origin activity-assets
-          fi
+          cp -a /tmp/activity-output/. .
+          touch .nojekyll
+          git add -A
+          if git diff --cached --quiet; then echo "No dashboard changes."; exit 0; fi
+          git commit -m "Update GitHub activity dashboard"
+          git push origin activity-assets
