@@ -29,8 +29,10 @@ I turn raw data into useful decisions, practical products, and better questions.
 ┌─[daniel@github]─[~/building-with-data]
 └──╼ whoami
 
-An AI and ML enthusiast from Nairobi, Kenya, building at the intersection
-of data, software, analytics, and cloud technology.
+A data engineer in the making from Nairobi, Kenya, building at the
+intersection of big data, analytics, AI/ML, and cloud engineering.
+I turn raw data into reliable pipelines, meaningful insights, and
+practical solutions — learning by building, one project at a time.
 ```
 
 ## About me
